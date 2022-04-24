@@ -1,0 +1,35 @@
+/*! global */ 
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+body {
+	font-size: 16px;
+	color: #1A1A1A;
+}
+
+.section__title {
+	font-size: 25px;
+}
+
+.section__text {
+	font-size: 14px;
+	line-height: 105%;
+}
+
+.btn {
+	background: $btn-color;
+	transition: all .3s ease-in-out;
+	&:hover {
+		background: darken($btn-color, 5%);
+	}
+	&:target {
+		transform: scale(0.8);
+		opacity: 0.5;
+	}
+}
+
